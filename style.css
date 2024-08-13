@@ -1,0 +1,141 @@
+/* Base styles for both themes */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: #454545; /* Default dark theme background */
+    color: #fff; /* Default dark theme text color */
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+}
+
+.left, .right {
+    flex-basis: 50%;
+    padding: 10px;
+}
+
+textarea {
+    width: 100%;
+    height: 28%;
+    background: #1f1f1f; /* Default dark theme background */
+    color: #fff; /* Default dark theme text color */
+    padding: 10px 20px;
+    border: 0;
+    outline: 0;
+    font-size: 18px;
+}
+
+iframe {
+    width: 100%;
+    height: 95%;
+    background: #fff;
+    border: 0;
+    outline: 0;
+}
+
+label i {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    background: #000; /* Default dark theme label background */
+    height: 30px;
+    color: #fff; /* Default dark theme label text color */
+}
+
+/* Light theme styles */
+body.light-mode {
+    background: #f5f5f5;
+    color: #333;
+}
+
+body.light-mode textarea {
+    background: #e0e0e0;
+    color: #333;
+}
+
+body.light-mode iframe {
+    background: #f5f5f5;
+}
+
+body.light-mode label {
+    background: #ccc;
+    color: #333;
+}
+
+body.light-mode button {
+    background: #007bff;
+    color: #fff;
+}
+
+body.light-mode button:hover {
+    background: #0056b3;
+}
+
+/* Button styles */
+button {
+    background: #333; /* Default dark theme button background */
+    color: #fff; /* Default dark theme button text color */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #555; /* Dark theme button hover background */
+}
+
+a.btn--text {
+    color: #007bff; /* Default button text color */
+}
+
+a.btn--text:hover {
+    color: #0056b3; /* Button text color on hover */
+}
+.auth-container {
+    background-color: #1f1f1f;
+    color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    width: 300px;
+    border-radius: 8px;
+  }
+  
+  .auth-container h2 {
+    text-align: center;
+  }
+  
+  .auth-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    border: none;
+  }
+  
+  .auth-container button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    border: none;
+    background-color: #454545;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .auth-container button:hover {
+    background-color: #333;
+  }
